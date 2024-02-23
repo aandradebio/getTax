@@ -28,7 +28,7 @@ Replace [ACCESSION_NUMBER] with the desired protein sequence accession number.
 Example:
 
 ```bash
-./getTax.sh AAA46477.1```
+./getTax.sh AAA46477.1
 
 An easy way to get taxonomy info for multiple accession numbers would be creating a run.sh file.
 
@@ -62,7 +62,7 @@ The `run.sh` script processes a list of protein sequence accession numbers using
 ./getTax.sh AAH69831.1 &
 wait```
 
-The run.sh script can be created based on a file containing multiple accession numbers or you could use: 
+The `run.sh` script can be created based on a file containing multiple accession numbers or you could use: 
 
 ```bash
 while read ACC; do ./getTax.sh ${acc}; done < accession_numbers.txt

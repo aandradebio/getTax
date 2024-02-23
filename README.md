@@ -68,7 +68,7 @@ wait
 The `run.sh` script can be created based on a file containing multiple accession numbers or you could use: 
 
 ```bash
-while read ACC; do ./getTax.sh ${acc}; done < accession_numbers.txt
+while read acc; do ./getTax.sh ${acc}; done < accession_numbers.txt
 ```
 
 ## Author

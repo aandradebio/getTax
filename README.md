@@ -21,7 +21,7 @@ The `getTax.sh` script retrieves taxonomic information for a given protein seque
 #### Usage
 
 ```bash
-./getTax.sh [ACCESSION_NUMBER]```
+./getTax.sh [ACCESSION_NUMBER]
 
 Replace [ACCESSION_NUMBER] with the desired protein sequence accession number.
 
